@@ -197,11 +197,11 @@ class Router implements RouterInterface
     /**
      * Get URL for named route
      *
-     * @param  string            $name   The name of the route
-     * @param  array             $params Associative array of URL parameter names and replacement values
+     * @param  string            $name        The name of the route
+     * @param  array             $params      Associative array of URL parameter names and replacement values
      * @param  array             $queryParams Associative array of query string parameters.
-     * @return string                    The URL for the given route populated with provided replacement values
-     * @throws \RuntimeException         If named route not found
+     * @return string                         The URL for the given route populated with provided replacement values
+     * @throws \RuntimeException              If named route not found
      */
     public function urlFor($name, array $params = array(), array $queryParams = array())
     {
